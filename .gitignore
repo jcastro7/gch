@@ -1,4 +1,14 @@
 #################
+## NetBeans
+#################
+/target/
+*.class
+*.classpath
+*.project
+/.settings/
+/nbproject/
+nb-configuration.xml
+#################
 ## Eclipse
 #################
 
@@ -163,3 +173,4 @@ pip-log.txt
 .DS_Store
 /src/conf/MANIFEST.MF
 /web/META-INF/
+/nbproject/private/
