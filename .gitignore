@@ -8,6 +8,8 @@
 /.settings/
 /nbproject/
 nb-configuration.xml
+build.xml
+nbbuild.xml
 #################
 ## Eclipse
 #################
