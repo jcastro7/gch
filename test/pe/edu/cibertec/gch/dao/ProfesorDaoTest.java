@@ -8,6 +8,7 @@ package pe.edu.cibertec.gch.dao;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import pe.edu.cibertec.gch.modelo.Profesor;
 
 /**
  *
@@ -18,4 +19,10 @@ public class ProfesorDaoTest {
     public ProfesorDaoTest() {
     }
     
+    @Test
+    public void testRegistrar(){
+        ProfesorDao profDao = new ProfesorDaoImpl();
+        Profesor prof = new Profesor("", "", "", "", "", "", "", "", "", "", "", "","", "", "");
+        profDao.registrar(prof);
+    }
 }
